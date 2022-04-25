@@ -1,0 +1,43 @@
+    form {
+        background-color: #F2F3F9;
+    }
+    
+    h1 {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    
+    form label,
+    form legend,
+    select,
+    span {
+        display: block;
+        margin: 10px 0px;
+    }
+    
+    fieldset {
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    input:invalid {
+        border: 1px solid red
+    }
+    
+    input:valid {
+        border: 1px solid rgb(59, 255, 59)
+    }
+    
+    input:optional {
+        border: 1px solid yellow
+    }
+    
+    input {
+        width: 100%;
+        padding: 10px;
+    }
+    
+    textarea {
+        width: 100%;
+    }
